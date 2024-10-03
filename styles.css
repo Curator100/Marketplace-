@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('58.jpg'); /* Background image set to 58.jpg */
+    background-size: cover;
+    background-position: center;
+    background-color: black; /* Fallback color if the image fails to load */
+    width: 390px; /* Fixed width */
+    margin: 0 auto; /* Centering the website */
+    color: yellow; /* Yellow font color */
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: yellow; /* Yellow font for title */
+}
+
+.tagline {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: yellow; /* Yellow font for tagline */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Align buttons in a column */
+    align-items: center; /* Center buttons horizontally */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin: 10px 0; /* Spacing between buttons */
+    cursor: pointer;
+    background-color: #8B0000; /* Dark red background for buttons */
+    color: yellow; /* Yellow font for button text */
+    border: none;
+    border-radius: 5px; /* Smooth rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #A52A2A; /* Lighter red on hover */
+}
