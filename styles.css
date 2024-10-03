@@ -5,10 +5,10 @@ body {
     background-image: url('58.jpg'); /* Background image set to 58.jpg */
     background-size: cover;
     background-position: center;
-    background-color: black; /* Fallback color if the image fails to load */
+    background-color: black; /* Fallback color */
     width: 390px; /* Fixed width */
-    margin: 0 auto; /* Centering the website */
-    color: yellow; /* Yellow font color */
+    margin: 0 auto; /* Center the page */
+    color: white; /* White font color */
 }
 
 .container {
@@ -26,6 +26,19 @@ body {
     font-size: 30px;
     margin-bottom: 20px;
     color: yellow; /* Yellow font for tagline */
+}
+
+.content-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background layer */
+    padding: 20px;
+    border-radius: 10px; /* Smooth rounded corners */
+    margin-bottom: 20px;
+}
+
+.content {
+    font-size: 20px;
+    line-height: 1.6;
+    color: white; /* White font for content */
 }
 
 .button-container {
